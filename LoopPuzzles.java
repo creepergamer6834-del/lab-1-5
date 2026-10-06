@@ -8,13 +8,11 @@ public class LoopPuzzles {
             return -1;
         }
         while (start != 1) {
-            int value = start;
             if (start % 2 == 0) {
-                value /= 2;
+                start /= 2;
                 steps += 1;
-            }
-            if (start % 2 != 0) {
-                value = 3 * value + 1;
+            } else if (start % 2 != 0) {
+                start = 3 * start + 1;
                 steps += 1;
             }
         }
@@ -26,7 +24,8 @@ public class LoopPuzzles {
         if (n == 0) {
             return 0;
         }
-        int sum = (int) (Math.abs(n));
+        n = (int) (Math.abs(n));
+        int sum = 0;
         while (n > 0) {
             sum += n % 10;
             n = n / 10;
@@ -40,10 +39,12 @@ public class LoopPuzzles {
         if (n < 0) {
             negative = true;
         }
-        int sum = (int) (Math.abs(n));
+        n = (int) (Math.abs(n));
+        int sum = 0;
         while (n > 0) {
+            sum = sum * 10;
             sum += n % 10;
-            sum = sum * 10 + n;
+
             n = n / 10;
         }
         if (negative) {
