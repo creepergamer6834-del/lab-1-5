@@ -67,16 +67,13 @@ public class LoopPuzzles {
 
     // Read REQ 06
     public int firstRunningTotalAbove(int limit) {
-        int count = 0;
+        int total = 0;
         int adding = 1;
-        if (count > limit) {
-            return 0;
-        }
-        while (count < limit) {
-            count += adding;
+        while (total <= limit) {
+            total += adding;
             adding++;
         }
-        return count;
+        return total;
     }
 
     // Read REQ 07
