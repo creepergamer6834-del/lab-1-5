@@ -23,9 +23,9 @@ public class LoopPuzzlesTester {
         System.out.println(
                 "firstRunningTotalAbove(-4): [" + puzzles.firstRunningTotalAbove(-4) + "]");
 
-        // System.out.println("readUntilSentinel(\"red,blue,stop,green\", \"stop\"): ["
-        // + puzzles.readUntilSentinel("red,blue,stop,green", "stop") + "]");
-        // System.out.println("readUntilSentinel(\"stop,a,b\", \"stop\"): ["
-        // + puzzles.readUntilSentinel("stop,a,b", "stop") + "]");
+        System.out.println("readUntilSentinel(\"red,blue,stop,green\", \"stop\"): ["
+                + puzzles.readUntilSentinel("red,blue,stop,green", "stop") + "]");
+        System.out.println("readUntilSentinel(\"stop,a,b\", \"stop\"): ["
+                + puzzles.readUntilSentinel("stop,a,b", "stop") + "]");
     }
 }
