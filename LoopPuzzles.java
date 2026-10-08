@@ -76,7 +76,6 @@ public class LoopPuzzles {
             count += adding;
             adding++;
         }
-        count += adding;
         return count;
     }
 

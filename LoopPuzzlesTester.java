@@ -19,7 +19,7 @@ public class LoopPuzzlesTester {
         System.out.println("isPowerOfThree(10): [" + puzzles.isPowerOfThree(10) + "]");
 
         System.out.println(
-                "firstRunningTotalAbove(10): [" + puzzles.firstRunningTotalAbove(10) + "]");
+                "firstRunningTotalAbove(20): [" + puzzles.firstRunningTotalAbove(20) + "]");
         System.out.println(
                 "firstRunningTotalAbove(-4): [" + puzzles.firstRunningTotalAbove(-4) + "]");
 
