@@ -15,13 +15,13 @@ public class LoopPuzzlesTester {
         System.out.println("reverseDigits(1200): [" + puzzles.reverseDigits(1200) + "]");
         System.out.println("reverseDigits(-123): [" + puzzles.reverseDigits(-123) + "]");
 
-        // System.out.println("isPowerOfThree(81): [" + puzzles.isPowerOfThree(81) + "]");
-        // System.out.println("isPowerOfThree(10): [" + puzzles.isPowerOfThree(10) + "]");
+        System.out.println("isPowerOfThree(81): [" + puzzles.isPowerOfThree(81) + "]");
+        System.out.println("isPowerOfThree(10): [" + puzzles.isPowerOfThree(10) + "]");
 
-        // System.out.println("firstRunningTotalAbove(10): ["
-        // + puzzles.firstRunningTotalAbove(10) + "]");
-        // System.out.println("firstRunningTotalAbove(-4): ["
-        // + puzzles.firstRunningTotalAbove(-4) + "]");
+        System.out.println(
+                "firstRunningTotalAbove(10): [" + puzzles.firstRunningTotalAbove(10) + "]");
+        System.out.println(
+                "firstRunningTotalAbove(-4): [" + puzzles.firstRunningTotalAbove(-4) + "]");
 
         // System.out.println("readUntilSentinel(\"red,blue,stop,green\", \"stop\"): ["
         // + puzzles.readUntilSentinel("red,blue,stop,green", "stop") + "]");

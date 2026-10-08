@@ -55,12 +55,29 @@ public class LoopPuzzles {
 
     // Read REQ 05
     public boolean isPowerOfThree(int n) {
-        return true;
+        int i = 0;
+        while (Math.pow(3, i) <= n) {
+            if (n == Math.pow(3, i)) {
+                return true;
+            }
+            i++;
+        }
+        return false;
     }
 
     // Read REQ 06
     public int firstRunningTotalAbove(int limit) {
-        return -999;
+        int count = 0;
+        int adding = 1;
+        if (count > limit) {
+            return 0;
+        }
+        while (count < limit) {
+            count += adding;
+            adding++;
+        }
+        count += adding;
+        return count;
     }
 
     // Read REQ 07
